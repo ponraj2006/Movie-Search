@@ -114,8 +114,8 @@ button:hover {
     }
 
     input {
-        width: 100%;
-        margin: 0 0 10px 0;
+        width: 96%;
+        margin: 0 20px 10px 0;
     }
 
     button {
@@ -123,13 +123,17 @@ button:hover {
     }
 
     .movies {
-        max-height: 50vh;
+        max-height: 70vh;
     }
 }
 
 /* Responsive Design for Mobile Phones */
 @media (max-width: 480px) {
-    input, button {
+    input{
+        width: 95%;
+        margin: 5px 0;
+    }
+     button {
         width: 100%;
         margin: 5px 0;
     }
@@ -140,6 +144,6 @@ button:hover {
     }
 
     .movies {
-        max-height: 40vh;
+        max-height: 70vh;
     }
 }
