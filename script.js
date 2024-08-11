@@ -1,4 +1,4 @@
-const API_KEY = 'f5c9727e'; // OMDB API key
+const API_KEY = 'your api key'; // OMDB API key
 
 async function searchMovies() {
     const query = document.getElementById('searchInput').value;
